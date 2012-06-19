@@ -6,12 +6,17 @@
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
+(global-brush no)
+(global-dynamics no)
+(global-pattern no)
+(global-gradient no)
 (layer-preview-size large)
 (resize-windows-on-zoom yes)
 (resize-windows-on-resize yes)
 (cursor-mode tool-crosshair)
 (navigation-preview-size large)
 (can-change-accels yes)
+(toolbox-foo-area yes)
 (help-locales "en:ja:fr:de:es:it:pt:pt_PT:nl:sv:nb:da:fi:ru:pl:zh_CN:zh_TW:ko:ar:cs:hu:tr:th:ca:hr:el:he:ro:sk:uk")
 
 

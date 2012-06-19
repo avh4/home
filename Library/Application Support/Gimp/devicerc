@@ -2,9 +2,9 @@
 
 (GimpDeviceInfo "Core Pointer"
     (stock-id "gimp-cursor")
-    (tool "gimp-airbrush-tool")
-    (paint-info "gimp-airbrush")
-    (brush "2. Hardness 050")
+    (tool "gimp-paintbrush-tool")
+    (paint-info "gimp-paintbrush")
+    (brush "aa_custom4")
     (dynamics "Pressure Opacity")
     (pattern "Pine")
     (gradient "FG to BG (RGB)")
@@ -69,7 +69,7 @@
     (stock-id "gimp-tool-paintbrush")
     (tool "gimp-text-tool")
     (paint-info "gimp-paintbrush")
-    (brush "Untitled")
+    (brush "Clipboard")
     (dynamics "Pressure Opacity")
     (pattern "Pine")
     (gradient "FG to BG (RGB)")

@@ -16,7 +16,7 @@
     (size 1106 720))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-window")
-    (position 0 88)
+    (position 0 0)
     (size 150 779)
     (open-on-exit)
     (gimp-toolbox
@@ -30,7 +30,7 @@
                 (tab-style automatic)))))
 (session-info "toplevel"
     (factory-entry "gimp-dock-window")
-    (position 152 87)
+    (position 152 0)
     (size 200 720)
     (open-on-exit)
     (aux-info
@@ -43,7 +43,7 @@
                 (tab-style automatic)))
         (book
             (position 247)
-            (current-page 0)
+            (current-page 2)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
                 (preview-size 32))
@@ -57,26 +57,26 @@
                 (aux-info
                     (show-button-bar "false")
                     (edit-active "true")
-                    (current-data "2. Hardness 100"))))))
+                    (current-data "aa_custom4"))))))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
     (position 19 0))
 (session-info "toplevel"
     (factory-entry "gimp-input-devices-dialog")
-    (position 0 254))
+    (position 401 297))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 373 142))
+    (position 185 0))
 (session-info "toplevel"
     (factory-entry "gimp-controller-editor-dialog")
     (position 381 204)
     (size 470 555))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 0 198))
+    (position 0 220))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
-    (position 340 180)
+    (position 300 44)
     (size 455 616))
 (session-info "toplevel"
     (factory-entry "gimp-scale-tool-dialog")

@@ -4,9 +4,6 @@
   <resource identifier="gimp-brush-clipboard" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
-  <resource identifier="${gimp_dir}/brushes/Untitled.vbr" checksum="386333ee25a685249c17c3df70ca2077">
-  </resource>
-
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="b22c1fec1056f979b1d17e4cc80e9112">
   </resource>
 
