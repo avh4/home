@@ -7,7 +7,7 @@
 
 (session-info "toplevel"
     (factory-entry "gimp-empty-image-window")
-    (position 395 52)
+    (position 459 20)
     (size 914 180)
     (open-on-exit))
 (session-info "toplevel"
@@ -16,12 +16,14 @@
     (size 1106 720))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-window")
-    (position 0 0)
-    (size 150 779)
+    (position 201 22)
+    (size 240 739)
     (open-on-exit)
     (gimp-toolbox
         (book
             (current-page 0)
+            (dockable "gimp-tool-options"
+                (tab-style automatic))
             (dockable "gimp-brush-grid"
                 (tab-style automatic))
             (dockable "gimp-pattern-grid"
@@ -30,7 +32,7 @@
                 (tab-style automatic)))))
 (session-info "toplevel"
     (factory-entry "gimp-dock-window")
-    (position 152 0)
+    (position 0 22)
     (size 200 720)
     (open-on-exit)
     (aux-info
@@ -43,15 +45,13 @@
                 (tab-style automatic)))
         (book
             (position 247)
-            (current-page 2)
+            (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
                 (preview-size 32))
             (dockable "gimp-channel-list"
                 (tab-style automatic)
                 (preview-size 32))
-            (dockable "gimp-tool-options"
-                (tab-style automatic))
             (dockable "gimp-brush-editor"
                 (tab-style automatic)
                 (aux-info
@@ -73,14 +73,14 @@
     (size 470 555))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 0 220))
+    (position 0 242))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
     (position 300 44)
     (size 455 616))
 (session-info "toplevel"
     (factory-entry "gimp-scale-tool-dialog")
-    (position 503 53))
+    (position 961 207))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
     (position 0 0)

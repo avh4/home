@@ -1,7 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tags>
 
-  <resource identifier="gimp-brush-clipboard" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="gimp-brush-clipboard" checksum="4440a9f6f0a5a93e9abf61318ef44e13">
+  </resource>
+
+  <resource identifier="${gimp_dir}/brushes/aa_custom1.vbr" checksum="9b28e2d34950d208b4341828065bb275">
+  </resource>
+
+  <resource identifier="${gimp_dir}/brushes/aa_custom2.vbr" checksum="9c9ba21c241f8a18a4b9d8a33ae86bf6">
+  </resource>
+
+  <resource identifier="${gimp_dir}/brushes/aa_custom3.vbr" checksum="148482dbcec095a0e4ce4133178eed5e">
+  </resource>
+
+  <resource identifier="${gimp_dir}/brushes/aa_custom4.vbr" checksum="f46e2ad2f6633a895404e71289f5b334">
+  </resource>
+
+  <resource identifier="${gimp_dir}/brushes/aa_custom5.vbr" checksum="0640361ac93eefd2c3207cb3b8f6cd32">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="b22c1fec1056f979b1d17e4cc80e9112">
@@ -214,7 +229,7 @@
   <resource identifier="${gimp_data_dir}/dynamics/Velocity-Tapering.gdyn" checksum="(null)">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
+  <resource identifier="gimp-pattern-clipboard" checksum="998941efb76c654180865bf9f30e9016">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">

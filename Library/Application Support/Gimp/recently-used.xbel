@@ -42,4 +42,30 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///Users/aaron/Desktop/Drawing%20Chhhallenge/02%20Apple.xcf" added="2012-06-19T07:41:33Z" modified="2012-06-19T07:44:46Z" visited="2012-06-19T07:41:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/xcf"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2012-06-19T07:44:46Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/aaron/Desktop/Drawing%20Chhhallenge/02%20Apple.png" added="2012-06-19T07:41:38Z" modified="2012-06-19T07:41:41Z" visited="2012-06-19T07:41:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2012-06-19T07:41:41Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
