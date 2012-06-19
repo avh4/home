@@ -1,0 +1,25 @@
+[user]
+	name = Aaron VonderHaar
+	email = gruen0aermel@gmail.com
+[merge]
+	tool = p4merge
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = true
+[mergetool]
+	keepBackup = false
+[diff]
+	tool = p4merge
+[difftool "diffmerge"]
+	cmd = diffmerge $LOCAL $REMOTE
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+	trustExitCode = false
+[difftool "kdiff3"]
+	trustExitCode = false
+[mergetool "p4merge"]
+	path = /Applications/p4merge.app/Contents/Resources/launchp4merge
+	trustExitCode = false
+[difftool "p4merge"]
+	trustExitCode = false
+	path = /Applications/p4merge.app/Contents/Resources/launchp4merge
