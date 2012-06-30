@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="language-level">
+      <project id="imagecomparison-swing" values="JDK_1_6" />
+      <project id="junit-nested" values="JDK_1_6,JDK_1_5" />
+      <project id="uilayer" values="JDK_1_6,JDK_1_5" />
+      <project id="speed-reader" values="JDK_1_6" />
+      <project id="Calculator" values="JDK_1_6" />
+      <project id="hde" values="JDK_1_6" />
+      <project id="imagediff" values="JDK_1_6" />
+      <project id="immortal-fantasy" values="JDK_1_6" />
+      <project id="ProjectWithFailingTests" values="JDK_1_6" />
+      <project id="jrspec" values="JDK_1_6,JDK_1_5" />
+      <project id="imagecomparison" values="JDK_1_6" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="junit-nested" values="JUnit" />
+      <project id="uilayer" values="JUnit,AndroidTestRunConfigurationType" />
+      <project id="speed-reader" values="AndroidTestRunConfigurationType,JUnit,AndroidRunConfigurationType" />
+      <project id="hde" values="Application,JUnit" />
+      <project id="imagediff" values="JUnit,Application" />
+      <project id="immortal-fantasy" values="JUnit,Application" />
+      <project id="ProjectWithFailingTests" values="JUnit" />
+      <project id="jrspec" values="JUnit" />
+      <project id="imagecomparison" values="JUnit" />
+    </group>
+    <group name="module type">
+      <project id="imagecomparison-swing" values="JAVA_MODULE" />
+      <project id="junit-nested" values="JAVA_MODULE" />
+      <project id="uilayer" values="JAVA_MODULE" />
+      <project id="speed-reader" values="JAVA_MODULE" />
+      <project id="Calculator" values="JAVA_MODULE" />
+      <project id="hde" values="JAVA_MODULE" />
+      <project id="imagediff" values="JAVA_MODULE" />
+      <project id="immortal-fantasy" values="JAVA_MODULE" />
+      <project id="ProjectWithFailingTests" values="JAVA_MODULE" />
+      <project id="jrspec" values="JAVA_MODULE" />
+      <project id="imagecomparison" values="JAVA_MODULE" />
+    </group>
+    <group name="vcs">
+      <project id="imagecomparison-swing" values="Git" />
+      <project id="junit-nested" values="Git" />
+      <project id="uilayer" values="Git" />
+      <project id="speed-reader" values="Git" />
+      <project id="hde" values="Git" />
+      <project id="imagediff" values="Git" />
+      <project id="immortal-fantasy" values="Git" />
+      <project id="jrspec" values="Git" />
+      <project id="imagecomparison" values="Git" />
+    </group>
+    <group name="frameworks">
+      <project id="uilayer" values="android" />
+      <project id="speed-reader" values="android" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="uilayer" values="JUnit" />
+      <project id="hde" values="JUnit" />
+      <project id="immortal-fantasy" values="JUnit" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.Application.Debug" count="8" />
+      <entry feature="execute.Application.Run" count="92" />
+      <entry feature="execute.JUnit.Debug" count="46" />
+      <entry feature="execute.JUnit.Run" count="1148" />
+    </counts>
+  </component>
+</application>
+

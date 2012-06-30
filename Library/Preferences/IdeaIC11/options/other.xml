@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="BaseRefactoringSettings">
+    <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+  </component>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="Default (1)" />
+  </component>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="EXT_CONFIGURATION">
+      <value>
+        <option name="CVS_RSH" value="ssh" />
+        <option name="PRIVATE_KEY_FILE" value="" />
+        <option name="ADDITIONAL_PARAMETERS" value="" />
+        <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="false" />
+      </value>
+    </option>
+    <option name="SSH_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="LOCAL_CONFIGURATION">
+      <value>
+        <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+      </value>
+    </option>
+    <option name="PROXY_SETTINGS">
+      <value>
+        <option name="USE_PROXY" value="false" />
+        <option name="PROXY_HOST" value="" />
+        <option name="PROXY_PORT" value="8080" />
+        <option name="TYPE" value="0" />
+        <option name="LOGIN" value="" />
+        <option name="PASSWORD" value="" />
+      </value>
+    </option>
+    <option name="SSH_FOR_EXT_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="PATH_TO_PASSWORD_FILE" />
+    <option name="TIMEOUT" value="10" />
+    <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
+    <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="CHECKOUT_KEYWORD_SUBSTITUTION" />
+    <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
+    <option name="ENCODING" value="Default" />
+    <option name="USE_GZIP" value="false" />
+    <option name="DO_OUTPUT" value="false" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="SHOW_PATH" value="true" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="VALUE_LOOKUP_DELAY" value="700" />
+    <option name="DEBUGGER_TRANSPORT" value="0" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="DISABLE_JIT" value="false" />
+    <option name="HIDE_DEBUGGER_ON_PROCESS_TERMINATION" value="false" />
+    <option name="HOTSWAP_IN_BACKGROUND" value="true" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CONSTRUCTORS" value="false" />
+    <option name="SKIP_GETTERS" value="false" />
+    <option name="SKIP_CLASSLOADERS" value="true" />
+    <option name="EVALUATION_DIALOG_TYPE" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapNever" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
+    <option name="WATCH_RETURN_VALUES" value="false" />
+    <option name="AUTO_VARIABLES_MODE" value="false" />
+    <option name="SHOW_LIBRARY_STACKFRAMES" value="true" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.intellij.rt.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.yourkit.runtime.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.springsource.loaded.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="FindSettings">
+    <option name="SEARCH_OVERLOADED_METHODS" value="false" />
+    <option name="SEARCH_IN_LIBRARIES" value="false" />
+    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="false" />
+    <option name="FIND_DIRECTION" value="forward" />
+    <option name="FIND_ORIGIN" value="from_cursor" />
+    <option name="FIND_SCOPE" value="global" />
+    <option name="FIND_CUSTOM_SCOPE" />
+    <option name="CASE_SENSITIVE_SEARCH" value="false" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="false" />
+    <option name="WHOLE_WORDS_ONLY" value="false" />
+    <option name="COMMENTS_ONLY" value="false" />
+    <option name="STRING_LITERALS_ONLY" value="false" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="false" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
+    <option name="WITH_SUBDIRECTORIES" value="true" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" />
+    <option name="RECENT_FIND_STRINGS">
+      <value>
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="MapEntr" />
+          <item index="1" class="java.lang.String" itemvalue="getMap" />
+          <item index="2" class="java.lang.String" itemvalue="asList" />
+          <item index="3" class="java.lang.String" itemvalue="playerCom" />
+          <item index="4" class="java.lang.String" itemvalue="getCurrentP" />
+          <item index="5" class="java.lang.String" itemvalue="TalkingS" />
+          <item index="6" class="java.lang.String" itemvalue="ShopState" />
+          <item index="7" class="java.lang.String" itemvalue="Boss" />
+          <item index="8" class="java.lang.String" itemvalue="startB" />
+          <item index="9" class="java.lang.String" itemvalue="run" />
+          <item index="10" class="java.lang.String" itemvalue="getCurrentState" />
+          <item index="11" class="java.lang.String" itemvalue="movePla" />
+          <item index="12" class="java.lang.String" itemvalue="instan" />
+          <item index="13" class="java.lang.String" itemvalue="CombatState" />
+          <item index="14" class="java.lang.String" itemvalue="setSTate" />
+          <item index="15" class="java.lang.String" itemvalue="Battle" />
+          <item index="16" class="java.lang.String" itemvalue="player atta" />
+          <item index="17" class="java.lang.String" itemvalue="getPlayerIn" />
+          <item index="18" class="java.lang.String" itemvalue="exitBattle" />
+          <item index="19" class="java.lang.String" itemvalue=", null" />
+          <item index="20" class="java.lang.String" itemvalue="BasicItem" />
+          <item index="21" class="java.lang.String" itemvalue="playerRest" />
+          <item index="22" class="java.lang.String" itemvalue="jbehave" />
+          <item index="23" class="java.lang.String" itemvalue="movePlayerTo" />
+          <item index="24" class="java.lang.String" itemvalue="player" />
+          <item index="25" class="java.lang.String" itemvalue="Stats" />
+          <item index="26" class="java.lang.String" itemvalue="location" />
+          <item index="27" class="java.lang.String" itemvalue="viewinfo" />
+          <item index="28" class="java.lang.String" itemvalue="isGameO" />
+          <item index="29" class="java.lang.String" itemvalue="null" />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_REPLACE_STRINGS">
+      <value>
+        <list size="3">
+          <item index="0" class="java.lang.String" itemvalue="game" />
+          <item index="1" class="java.lang.String" itemvalue="ShopViewInfo" />
+          <item index="2" class="java.lang.String" itemvalue="DecorativeItem" />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_DIR_STRINGS">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="RECENT_FILE_MASKS">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="*.properties" />
+          <item index="1" class="java.lang.String" itemvalue="*.html" />
+          <item index="2" class="java.lang.String" itemvalue="*.jsp" />
+          <item index="3" class="java.lang.String" itemvalue="*.xml" />
+          <item index="4" class="java.lang.String" itemvalue="*.java" />
+          <item index="5" class="java.lang.String" itemvalue="*.php" />
+          <item index="6" class="java.lang.String" itemvalue="*.js" />
+          <item index="7" class="java.lang.String" itemvalue="*.as" />
+          <item index="8" class="java.lang.String" itemvalue="*.css" />
+          <item index="9" class="java.lang.String" itemvalue="*.mxml" />
+          <item index="10" class="java.lang.String" itemvalue="*.py" />
+          <item index="11" class="java.lang.String" itemvalue="*.rb" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="GlobalAntConfiguration">
+    <filtersTableLayout />
+    <propertiesTableLayout />
+    <registeredAnts />
+  </component>
+  <component name="HttpConfigurable">
+    <option name="USE_HTTP_PROXY" value="false" />
+    <option name="PROXY_HOST" value="" />
+    <option name="PROXY_PORT" value="80" />
+    <option name="PROXY_AUTHENTICATION" value="false" />
+    <option name="PROXY_LOGIN" value="" />
+    <option name="PROXY_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_PROXY_PASSWORD" value="false" />
+  </component>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Documents/workspace/immortal-fantasy" />
+        <option value="$USER_HOME$/Documents/workspace/hde" />
+        <option value="$USER_HOME$/Documents/workspace/hde/examples/Calculator" />
+        <option value="$USER_HOME$/Documents/workspace/hde/examples/ProjectWithFailingTests" />
+        <option value="$USER_HOME$/Documents/workspace/imagecomparison/imagecomparison" />
+        <option value="$USER_HOME$/Documents/workspace/imagecomparison/imagediff" />
+        <option value="$USER_HOME$/Documents/workspace/imagecomparison/imagecomparison-swing" />
+        <option value="$USER_HOME$/Documents/workspace/junit-nested" />
+        <option value="$USER_HOME$/Documents/workspace/uilayer" />
+        <option value="$USER_HOME$/Documents/workspace/speed-reader" />
+      </list>
+    </option>
+    <option name="names">
+      <map>
+        <entry key="$USER_HOME$/Documents/workspace/hde/examples/Calculator" value="" />
+        <entry key="$USER_HOME$/Documents/workspace/hde/examples/ProjectWithFailingTests" value="" />
+        <entry key="$USER_HOME$/Documents/workspace/imagecomparison/imagecomparison" value="" />
+        <entry key="$USER_HOME$/Documents/workspace/imagecomparison/imagecomparison-swing" value="" />
+        <entry key="$USER_HOME$/Documents/workspace/imagecomparison/imagediff" value="" />
+        <entry key="$USER_HOME$/Documents/workspace/junit-nested" value="" />
+        <entry key="$USER_HOME$/Documents/workspace/speed-reader" value="" />
+        <entry key="$USER_HOME$/Documents/workspace/uilayer" value="" />
+      </map>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Documents/workspace/immortal-fantasy" />
+  </component>
+  <component name="RecentTaskRepositories">
+    <PivotalTracker shared="false" url="https://www.pivotaltracker.com">
+      <option name="APIKey" value="30dea5130439882d3c6349e60390eed8" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <option name="projectId" value="426257" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <username />
+    </PivotalTracker>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="PUSH_DOWN_PREVIEW_USAGES" value="true" />
+    <option name="INLINE_METHOD_THIS" value="true" />
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+  </component>
+  <component name="Registry">
+    <entry key="ide.firstStartup" value="false" />
+  </component>
+  <component name="SystemNotifications">
+    <option name="NOTIFICATIONS">
+      <set>
+        <option value="TestRunner" />
+      </set>
+    </option>
+  </component>
+  <component name="TaskSettings">
+    <option name="ALWAYS_DISPLAY_COMBO" value="true" />
+  </component>
+  <component name="TemplateSettings">
+    <defaultShortcut shortcut="TAB" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="ff" />
+      <option name="BACKGROUND" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="EFFECT_COLOR" />
+      <option name="EFFECT_TYPE" value="0" />
+      <option name="ERROR_STRIPE_COLOR" value="ff" />
+    </pattern>
+  </component>
+  <component name="UpdatesConfigurable">
+    <option name="myPluginHosts">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="myKnownUpdateChannels">
+      <value>
+        <list size="7">
+          <item index="0" class="java.lang.String" itemvalue="idea90" />
+          <item index="1" class="java.lang.String" itemvalue="IDEA10EAP" />
+          <item index="2" class="java.lang.String" itemvalue="IDEA10" />
+          <item index="3" class="java.lang.String" itemvalue="IDEA11" />
+          <item index="4" class="java.lang.String" itemvalue="IDEA11EAP" />
+          <item index="5" class="java.lang.String" itemvalue="IDEA11dot1EAP" />
+          <item index="6" class="java.lang.String" itemvalue="ledaEAP" />
+        </list>
+      </value>
+    </option>
+    <option name="myIgnoredBuildNumbers">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="CHECK_NEEDED" value="true" />
+    <option name="LAST_TIME_CHECKED" value="1340947285790" />
+    <option name="LAST_BUILD_CHECKED" value="IC-117.418" />
+    <option name="UPDATE_CHANNEL_TYPE" value="release" />
+  </component>
+  <component name="UsageViewSettings">
+    <option name="filterDuplicatedLine" value="true" />
+    <option name="IS_FILTER_DUPLICATED_LINE" value="true" />
+    <option name="GROUP_BY_USAGE_TYPE" value="false" />
+    <option name="GROUP_BY_MODULE" value="false" />
+    <option name="GROUP_BY_FILE_STRUCTURE" value="false" />
+    <option name="GROUP_BY_SCOPE" value="true" />
+  </component>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <debuggers>
+      <debugger id="groovy_debugger">
+        <configuration />
+      </debugger>
+    </debuggers>
+  </component>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="SHOW_IN_TOOLBAR" value="true" />
+    <option name="SHOW_IN_MAIN_MENU" value="true" />
+    <option name="OPEN_NEW_TAB" value="false" />
+    <option name="HIGHLIGHT_RESULTS" value="true" />
+    <option name="SHOW_USAGE_VIEW" value="false" />
+    <option name="SEARCH_SCOPE">
+      <value type="PROJECT" />
+    </option>
+    <option name="MATCH_RECURSIVELY" value="false" />
+    <option name="attributes">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" value="ffd578" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="-1" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="contextAttributes">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" value="c2ffd4" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="-1" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="scrollToFirst" value="true" />
+    <option name="bUseContextAtCursor" value="true" />
+    <option name="bHighlightStartTagOnly" value="true" />
+    <option name="bAddErrorStripe" value="true" />
+  </component>
+  <component name="XSLT-Support.Configuration">
+    <option name="SHOW_LINKED_FILES" value="true" />
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Class" />
+          </list>
+        </value>
+      </option>
+    </recent_templates>
+    <default_templates />
+    <internal_templates />
+    <includes_templates />
+    <code_templates />
+    <j2ee_templates />
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl">
+    <enableFiles value="false" />
+    <enableFolders value="false" />
+    <filesTool value="" newValue="" />
+    <foldersTool value="" newValue="" />
+  </component>
+</application>
+

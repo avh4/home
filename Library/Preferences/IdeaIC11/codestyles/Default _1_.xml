@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code_scheme name="Default (1)">
+  <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+    <value>
+      <package name="java.awt" withSubpackages="false" static="false" />
+      <package name="net.avh4.test.Assertions" withSubpackages="false" static="true" />
+      <package name="javax.swing" withSubpackages="false" static="false" />
+    </value>
+  </option>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+</code_scheme>
+

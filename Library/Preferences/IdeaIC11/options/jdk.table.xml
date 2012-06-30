@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="1.6" />
+      <type value="JavaSDK" />
+      <version value="java version &quot;1.6.0_31&quot;" />
+      <homePath value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/deploy.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/dt.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/javaws.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jconsole.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/management-agent.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/plugin.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/sa-jdi.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="http://download.oracle.com/javase/6/docs/api/" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Android 2.3.3 Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.6.0_31&quot;" />
+      <homePath value="$USER_HOME$/android-sdk-macosx" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/android-sdk-macosx/platforms/android-10/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/android-sdk-macosx/platforms/android-10/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/android-sdk-macosx/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="1.6" sdk="android-10" />
+    </jdk>
+    <jdk version="2">
+      <name value="OpenJDK 1.7u" />
+      <type value="JavaSDK" />
+      <version value="openjdk version &quot;1.7.0-jdk7u6-b14&quot;" />
+      <homePath value="/Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/lib/dt.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/lib/jconsole.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/lib/sa-jdi.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/lib/tools.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/JObjC.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/rhino.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/ext/sunec.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/jre/lib/ext/zipfs.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home/src.zip!/" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
+

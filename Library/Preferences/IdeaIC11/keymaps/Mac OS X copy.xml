@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="SafeDelete">
+    <keyboard-shortcut first-keystroke="meta DELETE" />
+    <keyboard-shortcut first-keystroke="meta BACK_SPACE" />
+  </action>
+</keymap>
+
