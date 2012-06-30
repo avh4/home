@@ -7,7 +7,7 @@
 
 (session-info "toplevel"
     (factory-entry "gimp-empty-image-window")
-    (position 459 20)
+    (position 544 202)
     (size 914 180)
     (open-on-exit))
 (session-info "toplevel"
@@ -16,24 +16,31 @@
     (size 1106 720))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-window")
-    (position 201 22)
+    (position 201 66)
     (size 240 739)
     (open-on-exit)
     (gimp-toolbox
         (book
             (current-page 0)
             (dockable "gimp-tool-options"
+                (locked)
                 (tab-style automatic))
             (dockable "gimp-brush-grid"
+                (locked)
                 (tab-style automatic))
             (dockable "gimp-pattern-grid"
+                (locked)
                 (tab-style automatic))
             (dockable "gimp-gradient-list"
+                (locked)
+                (tab-style automatic))
+            (dockable "gimp-palette-list"
+                (locked)
                 (tab-style automatic)))))
 (session-info "toplevel"
     (factory-entry "gimp-dock-window")
-    (position 0 22)
-    (size 200 720)
+    (position 3 41)
+    (size 200 850)
     (open-on-exit)
     (aux-info
         (show-image-menu "false")
@@ -57,7 +64,16 @@
                 (aux-info
                     (show-button-bar "false")
                     (edit-active "true")
-                    (current-data "aa_custom4"))))))
+                    (current-data "2. Hardness 050"))))
+        (book
+            (position 638)
+            (current-page 0)
+            (dockable "gimp-palette-editor"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (edit-active "true")
+                    (current-data "Copper Lamp"))))))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
     (position 19 0))
@@ -66,14 +82,14 @@
     (position 401 297))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 185 0))
+    (position 53 202))
 (session-info "toplevel"
     (factory-entry "gimp-controller-editor-dialog")
     (position 381 204)
     (size 470 555))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 0 242))
+    (position 0 286))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
     (position 300 44)
@@ -89,6 +105,16 @@
     (factory-entry "gimp-file-save-dialog")
     (position 68 180)
     (size 950 617))
+(session-info "toplevel"
+    (factory-entry "gimp-levels-tool-dialog")
+    (position 891 62)
+    (size 372 518))
+(session-info "toplevel"
+    (factory-entry "gimp-color-balance-tool-dialog")
+    (position 794 62))
+(session-info "toplevel"
+    (factory-entry "gimp-hue-saturation-tool-dialog")
+    (position 894 81))
 
 (hide-docks no)
 (single-window-mode no)

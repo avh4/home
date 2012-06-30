@@ -14,6 +14,7 @@
 (resize-windows-on-zoom yes)
 (resize-windows-on-resize yes)
 (cursor-mode tool-crosshair)
+(show-paint-tool-cursor no)
 (navigation-preview-size large)
 (can-change-accels yes)
 (toolbox-foo-area yes)
