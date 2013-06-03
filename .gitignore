@@ -8,6 +8,8 @@ Library/*
 Library/Application Support/*
 !Library/Application Support/Gimp
 Library/Application Support/Gimp/cache
+Library/Application Support/Gimp/colorrc
+Library/Application Support/Gimp/recently-used.xbel
 !Library/Preferences
 Library/Preferences/*
 !Library/Preferences/Idea*

@@ -1,0 +1,123 @@
+# GIMP sessionrc
+# 
+# This file takes session-specific info (that is info, you want to keep
+# between two GIMP sessions).  You are not supposed to edit it manually, but
+# of course you can do.  The sessionrc will be entirely rewritten every time
+# you quit GIMP.  If this file isn't found, defaults are used.
+
+(session-info "toplevel"
+    (factory-entry "gimp-empty-image-window")
+    (position 544 202)
+    (size 914 180)
+    (open-on-exit))
+(session-info "toplevel"
+    (factory-entry "gimp-single-image-window")
+    (position 152 0)
+    (size 1106 720))
+(session-info "toplevel"
+    (factory-entry "gimp-toolbox-window")
+    (position 201 66)
+    (size 240 739)
+    (open-on-exit)
+    (gimp-toolbox
+        (book
+            (current-page 0)
+            (dockable "gimp-tool-options"
+                (locked)
+                (tab-style automatic))
+            (dockable "gimp-brush-grid"
+                (locked)
+                (tab-style automatic))
+            (dockable "gimp-pattern-grid"
+                (locked)
+                (tab-style automatic))
+            (dockable "gimp-gradient-list"
+                (locked)
+                (tab-style automatic))
+            (dockable "gimp-palette-list"
+                (locked)
+                (tab-style automatic)))))
+(session-info "toplevel"
+    (factory-entry "gimp-dock-window")
+    (position 3 41)
+    (size 200 850)
+    (open-on-exit)
+    (aux-info
+        (show-image-menu "false")
+        (follow-active-image "true"))
+    (gimp-dock
+        (book
+            (current-page 0)
+            (dockable "gimp-histogram-editor"
+                (tab-style automatic)))
+        (book
+            (position 247)
+            (current-page 0)
+            (dockable "gimp-layer-list"
+                (tab-style automatic)
+                (preview-size 32))
+            (dockable "gimp-channel-list"
+                (tab-style automatic)
+                (preview-size 32))
+            (dockable "gimp-brush-editor"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "false")
+                    (edit-active "true")
+                    (current-data "2. Hardness 050"))))
+        (book
+            (position 638)
+            (current-page 0)
+            (dockable "gimp-palette-editor"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (edit-active "true")
+                    (current-data "Copper Lamp"))))))
+(session-info "toplevel"
+    (factory-entry "gimp-image-new-dialog")
+    (position 19 0))
+(session-info "toplevel"
+    (factory-entry "gimp-input-devices-dialog")
+    (position 401 297))
+(session-info "toplevel"
+    (factory-entry "gimp-preferences-dialog")
+    (position 53 202))
+(session-info "toplevel"
+    (factory-entry "gimp-controller-editor-dialog")
+    (position 381 204)
+    (size 470 555))
+(session-info "toplevel"
+    (factory-entry "gimp-toolbox-color-dialog")
+    (position 0 286))
+(session-info "toplevel"
+    (factory-entry "gimp-keyboard-shortcuts-dialog")
+    (position 300 44)
+    (size 455 616))
+(session-info "toplevel"
+    (factory-entry "gimp-scale-tool-dialog")
+    (position 961 207))
+(session-info "toplevel"
+    (factory-entry "gimp-file-export-dialog")
+    (position 0 0)
+    (size 950 617))
+(session-info "toplevel"
+    (factory-entry "gimp-file-save-dialog")
+    (position 68 180)
+    (size 950 617))
+(session-info "toplevel"
+    (factory-entry "gimp-levels-tool-dialog")
+    (position 891 62)
+    (size 372 518))
+(session-info "toplevel"
+    (factory-entry "gimp-color-balance-tool-dialog")
+    (position 794 62))
+(session-info "toplevel"
+    (factory-entry "gimp-hue-saturation-tool-dialog")
+    (position 894 81))
+
+(hide-docks no)
+(single-window-mode no)
+(last-tip-shown 0)
+
+# end of sessionrc

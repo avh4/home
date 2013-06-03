@@ -1,0 +1,10 @@
+# GIMP themerc
+#
+# This file is written on GIMP startup and on every theme change.
+# It is NOT supposed to be edited manually. Edit your personal
+# gtkrc file instead (/Users/aaron/Library/Application Support/Gimp/gtkrc).
+
+include "/tmp/skl/Gimp.app/Contents/Resources/share/gimp/2.0/themes/Pro/gtkrc"
+include "/Users/aaron/Library/Application Support/Gimp/gtkrc"
+
+# end of themerc
