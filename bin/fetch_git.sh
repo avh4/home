@@ -1,24 +1,40 @@
 #!/bin/bash
+dryrun=0
+while getopts "n" opt; do
+    case "$opt" in
+    n)  dryrun=1
+        ;;
+    esac
+done
 
 function goto () {
   mkdir -p ~/"$1"
   cd ~/"$1"
 }
 
+function checkout () {
+  if [ $dryrun == 1 ]; then
+    echo "$URL is not checked out in `pwd`"
+  else
+    git clone "$URL"
+  fi
+}
+
 function clone () {
   URL="$1"
   NAME="`echo "$URL" | sed -e 's%.*/\(.*\)\.git$%\1%'`"
-  if [ ! -e "$NAME" ]; then git clone "$URL"; fi
+  if [ ! -e "$NAME" ]; then checkout "$URL"; fi
 }
   
-goto Documents/workspace
 
 # Projects
+goto Documents/workspace
 clone git@github.com:avh4/hero-extant.git
 clone git@github.com:avh4/list-organizer.git
 clone git@github.com:avh4/list-organizer.git
 
 # Frameworks
+goto Documents/workspace
 clone git@github.com:avh4/uilayer.git
 clone git@github.com:avh4/geometry.git
 clone git@github.com:avh4/sandbox.git
@@ -30,6 +46,7 @@ clone git@github.com:avh4/ideal-data-java.git
 clone git@github.com:buildsomethingawesome/awesome-lib-java-swing.git
 
 # Experimental
+goto Documents/workspace
 clone git@github.com:avh4/deft.git
 clone git@github.com:avh4/cljaos.git
 clone git@github.com:avh4/fui.git
@@ -40,10 +57,8 @@ clone git@github.com:avh4/gdata-facade.git
 clone git@github.com:avh4/junit-nested.git
 
 
-goto Documents/Websites
-
 # Websites
+goto Documents/Websites
 clone git@github.com:avh4/avh4.net.git
 clone git@github.com:avh4/doesitwrong.com.git
 clone /Users/avh4/Dropbox/Private/git/buildsomethingawesome.org.git
-
