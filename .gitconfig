@@ -26,6 +26,7 @@
 	trustExitCode = false
 	path = /Applications/p4merge.app/Contents/Resources/launchp4merge
 [core]
+	excludesfile = /Users/aaron/.gitexcludes
 	autocrlf = input
 [push]
 	default = simple
