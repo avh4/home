@@ -36,6 +36,7 @@ clone git@github.com:avh4/list-organizer.git
 goto Documents/workspace/archetypes
 clone git@github.com:archetypes/java.git
 clone git@github.com:archetypes/android.git
+clone git@github.com:archetypes/clojure.git
 
 # Frameworks
 goto Documents/workspace
