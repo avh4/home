@@ -1,6 +1,8 @@
 [user]
 	name = Aaron VonderHaar
 	email = gruen0aermel@gmail.com
+[color]
+	ui = auto
 [merge]
 	tool = p4merge
 [mergetool "diffmerge"]
@@ -23,3 +25,7 @@
 [difftool "p4merge"]
 	trustExitCode = false
 	path = /Applications/p4merge.app/Contents/Resources/launchp4merge
+[core]
+	autocrlf = input
+[push]
+	default = simple
