@@ -2,3 +2,15 @@
 !.bash*
 .bash_history
 .bash_eternal_history
+!Library
+Library/*
+!Library/Application Support
+Library/Application Support/*
+!Library/Application Support/Gimp
+Library/Application Support/Gimp/cache
+!Library/Preferences
+Library/Preferences/*
+!Library/Preferences/Idea*
+Library/Preferences/IdeaIC11/componentVersions
+Library/Preferences/IdeaIC11/tasks
+!bin

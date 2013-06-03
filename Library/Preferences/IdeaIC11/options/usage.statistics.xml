@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="UsagesStatistic" time="1340727725170" allowed="true" show-notification="false" period="weekly">
+    <group id="disabled-plugins" priority="0.0" data="hg4idea=1,Subversion=1,CVS=1" />
+    <group id="features counts" priority="0.0" data="execute.JUnit.Run=1086,execute.Application.Run=82,execute.Application.Debug=8,execute.JUnit.Debug=45" />
+    <group id="frameworks" priority="0.0" data="android=2" />
+    <group id="language-level" priority="0.0" data="JDK_1_5=4,JDK_1_6=11" />
+    <group id="module type" priority="0.0" data="JAVA_MODULE=11" />
+    <group id="non-bundled-plugins" priority="0.0" data="com.intellij=1,Infinitest=0,PlantUML integration=1" />
+    <group id="productivity" priority="0.0" data="navigation.popup.camelprefix=16,navigation.popup.file=81,navigation.popup.action=14,ui.tree.speedsearch=11,editing.completion.second.basic=30,editing.completion.replace=239,editing.completion.variable.name=669,editing.select.word=2878,editing.completion.camelHumps=26,codeassists.overrideimplement=81,codeassists.highlight.throws=20,codeassists.highlight.return=143,editing.completion.basic=4229,refactoring.introduceVariable.incompleteStatement=3,codeassists.highlight.implements=37,navigation.goto.inspection=1,codeassists.comment.line=631,navigation.recent.files=430,refactoring.copyClass=4,navigation.popup.wildcards=4,navigation.goto.declaration=562,refactoring.move.moveInner=5,navigation.popup.class=208,editing.completion.finishByDotEtc=559,refactoring.rename=9,refactoring.introduceVariable=73,navigation.select.in=1,codeassists.quickjavadoc=1" />
+    <group id="run-configuration-type" priority="0.0" data="AndroidRunConfigurationType=1,AndroidTestRunConfigurationType=2,Application=3,JUnit=9" />
+    <group id="run-configuration-type-temp" priority="0.0" data="JUnit=3" />
+    <group id="vcs" priority="0.0" data="Git=9" />
+  </component>
+</application>
+
