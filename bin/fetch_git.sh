@@ -31,7 +31,7 @@ function clone () {
 goto Documents/workspace
 clone git@github.com:avh4/hero-extant.git
 clone git@github.com:avh4/list-organizer.git
-clone git@github.com:avh4/list-organizer.git
+clone git@github.com:archetypes/archetype-bootstrap.git
 
 goto Documents/workspace/archetypes
 clone git@github.com:archetypes/java.git
@@ -48,13 +48,13 @@ clone git@github.com:avh4/imagecomparison.git
 clone git@github.com:avh4/ideal-project-java.git
 clone git@github.com:avh4/ideal-test-java.git
 clone git@github.com:avh4/ideal-data-java.git
+clone git@github.com:avh4/fui.git
 clone git@github.com:buildsomethingawesome/awesome-lib-java-swing.git
 
 # Experimental
 goto Documents/workspace
 clone git@github.com:avh4/deft.git
 clone git@github.com:avh4/cljaos.git
-clone git@github.com:avh4/fui.git
 clone git@github.com:avh4/emgine.git
 clone git@github.com:avh4/court-reporter.git
 clone git@github.com:avh4/data.git
