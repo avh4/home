@@ -32,6 +32,8 @@ goto Documents/workspace
 clone git@github.com:avh4/hero-extant.git
 clone git@github.com:avh4/list-organizer.git
 clone git@github.com:archetypes/archetype-bootstrap.git
+clone git@github.com:avh4/home.git
+clone git@github.com:avh4/finance.git
 
 goto Documents/workspace/archetypes
 clone git@github.com:archetypes/java.git
