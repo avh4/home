@@ -5,6 +5,7 @@
 	ui = auto
 [merge]
 	tool = p4merge
+	conflictstyle = diff3
 [mergetool "diffmerge"]
 	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
 	trustExitCode = true
@@ -28,5 +29,3 @@
 [core]
 	excludesfile = /Users/aaron/.gitexcludes
 	autocrlf = input
-[push]
-	default = simple
